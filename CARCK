@@ -210,7 +210,7 @@ def setting():
 		print (' [!] Choose Correct Option')
 		exit()
 	clear()
-	print(logo);print ('\n [01] Method 1 ');print (' [02] Method 2');print')[BEST] \033[1;97m')
+	print(logo);print ('\n [01] Method 1 ');print (' [02] Method 2');print')\033[1;97m')
 	hc = input ("\n [+] Method : ")
 	if hc in ['1','01']:
 		method.append('mobile')
